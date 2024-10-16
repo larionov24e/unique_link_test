@@ -1,5 +1,4 @@
 <script setup>
-import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import {Head, Link} from '@inertiajs/vue3';
 import Checkbox from "@/Components/Checkbox.vue";
 import PrimaryButton from "@/Components/PrimaryButton.vue";
@@ -18,7 +17,6 @@ const submit = () => {
 <template>
     <Head title="Dashboard" />
 
-    <AuthenticatedLayout>
         <template #header>
             <h2
                 class="text-xl font-semibold leading-tight text-gray-800"
@@ -46,5 +44,4 @@ const submit = () => {
                 </div>
             </div>
         </div>
-    </AuthenticatedLayout>
 </template>
